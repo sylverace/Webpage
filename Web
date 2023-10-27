@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Kits Store</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Football Kits Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Home Page</h2>
+            <p>Welcome to our website dedicated to the finest football kits.</p>
+            <img src="football-kit-image.jpg" alt="Football Kit">
+        </section>
+
+        <section id="product">
+            <h2>Football Kit</h2>
+            <p>Check out our latest football kit:</p>
+            <img src="product-image.jpg" alt="Football Kit">
+            <ul>
+                <li>High-quality fabric</li>
+                <li>Available in various sizes</li>
+                <li>Team customization options</li>
+            </ul>
+            <p>Price: $49.99</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Football Kits Store</p>
+    </footer>
+
+    <script>
+        function addToCart() {
+            alert('Product added to the cart!');
+        }
+    </script>
+</body>
+</html>
